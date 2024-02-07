@@ -7,7 +7,7 @@ translate_client = translate.Client()
 text_to_speech_client = texttospeech.TextToSpeechClient()
 
 # Telegram Bot token
-TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+TOKEN = '6821196414:AAEu-ulIbbSkm18WKtfb5JXQcXQHUTEs7bM'
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(func=lambda message: True)
